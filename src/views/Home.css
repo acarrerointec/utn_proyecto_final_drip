@@ -1,0 +1,58 @@
+/* Centrar todo el contenido de la página */
+body, main {
+   /* height: 25px;  /* Ocupa toda la altura de la ventana */
+    margin: 15px;  /* Elimina el margen por defecto */
+    display: flex;  /* Usamos flexbox */
+    justify-content: center;  /* Centra los elementos horizontalmente */
+    align-items: center;  /* Centra los elementos verticalmente */
+    flex-direction: column;  /* Coloca los elementos en columna (uno debajo del otro) */
+    background-color: white /* Fondo suave */
+
+}
+
+
+/* Estilos para el contenedor principal */
+.principal {
+
+    text-align: center;  /* Centra el texto dentro del contenedor */
+    margin-bottom: 20px;  /* Añade un pequeño margen inferior */
+}
+
+/* Estilo para la imagen */
+img {
+    max-width: 60px;  /* Limita el tamaño máximo de la imagen */
+    margin: 10px 10px;  /* Espacio alrededor de la imagen */
+}
+
+
+/* Estilos para la tarjeta */
+.card {
+    width: auto;  /* Ancho fijo de la tarjeta */
+    margin-top: 1px;  /* Espacio entre la bienvenida y la tarjeta */
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Sombra suave para darle un efecto elevado */
+   /* background-color: #fff;  /* Fondo blanco */
+    text-align: center;  /* Centra el texto dentro de la tarjeta */
+}
+
+/* Estilo para el botón de la tarjeta */
+.card .btn {
+    margin-top: 10px;  /* Espacio entre el texto y el botón */
+}
+/* Contenedor de registro */
+.registro {
+    display: flex; /* Activa el modelo de Flexbox */
+    align-items: center; /* Alinea verticalmente al centro */
+    justify-content: space-between; /* Espacio uniforme entre elementos */
+    gap: 60px; /* Espaciado entre elementos */
+  }
+  
+  /* Ajuste para el botón (opcional) */
+  .registro .btn {
+    padding: 10px 20px;
+    text-decoration: none;
+   /* font-size: 16px;
+    font-weight: bold;
+    */
+  }

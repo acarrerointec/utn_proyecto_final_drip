@@ -1,0 +1,19 @@
+// Importa las variables de Bootstrap
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+
+// Sobrescribe variables de Bootstrap (opcional)
+$primary: #6c5ce7; // Cambiar color primario
+$body-bg: #eaeef1; // Cambiar color de fondo
+
+// Importa el resto de Bootstrap
+@import "bootstrap/scss/bootstrap";
+
+
+// src/styles/custom.scss
+@import "bootstrap/scss/bootstrap";
+
+.my-custom-class {
+  font-size: 1.5rem;
+  color: $primary;
+}
